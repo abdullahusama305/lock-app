@@ -73,6 +73,8 @@ app comes to the foreground
 
 OpenSAT's reading and writing items were too unreliable to use at all.
 
+Licences and attributions for the bundled question data are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The bundled `gk.json` is CC BY-SA 4.0.
+
 To rebuild the bundled packs:
 
 ```bash
