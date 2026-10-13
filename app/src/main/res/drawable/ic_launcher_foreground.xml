@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A padlock centred in the 66dp adaptive-icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- shackle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,51 V44 A12,12 0 0 1 66,44 V51 H61 V44 A7,7 0 0 0 47,44 V51 Z" />
+    <!-- body with a keyhole cut out (even-odd) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M38,50 H70 Q73,50 73,53 V74 Q73,77 70,77 H38 Q35,77 35,74 V53 Q35,50 38,50 Z M50.5,61 A3.5,3.5 0 1 1 57.5,61 A3.5,3.5 0 1 1 50.5,61 Z M52.7,63 H55.3 L56,70 H52 Z" />
+</vector>

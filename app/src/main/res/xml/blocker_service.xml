@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Window events only. No packageNames filter: the service must also see you leave a blocked app.
+  canRetrieveWindowContent + flagRetrieveInteractiveWindows let it list on-screen windows
+  (split screen, picture-in-picture); it never reads what's inside them.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowsChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagRetrieveInteractiveWindows"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/service_description"
+    android:isAccessibilityTool="false"
+    android:notificationTimeout="100"
+    android:settingsActivity="com.abdullah.lockapp.ui.MainActivity" />

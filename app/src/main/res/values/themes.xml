@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.LockApp" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <!-- The gate covers the blocked app completely and should appear instantly. -->
+    <style name="Theme.LockApp.Gate">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LockApp</string>
+    <string name="service_label">LockApp blocker</string>
+    <string name="service_description">Watches which app is on screen so LockApp can cover Instagram, YouTube and the other apps you chose with its focus, daily-limit and question screens. LockApp never reads or stores what is inside those apps.</string>
+</resources>
